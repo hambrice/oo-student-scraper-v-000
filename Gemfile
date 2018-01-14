@@ -1,6 +1,5 @@
-# A sample Gemfile
-source "https://rubygems.org"
-
-gem 'pry'
-gem 'nokogiri', '1.6.6.2'
-gem 'rspec'
+ move = rand(0..10)
+      if board.valid_move?(move)
+        move.to_s
+      else
+        self.move(board)
